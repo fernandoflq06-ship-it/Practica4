@@ -8,6 +8,6 @@ public class HolaControlador {
 
     @GetMapping("/holaControlador")
     public String saludo() {
-        return "Hola mundo desde el controlador";
+        return "Bienvenido al sistema Protocare - Práctica 5";
     }
 }
