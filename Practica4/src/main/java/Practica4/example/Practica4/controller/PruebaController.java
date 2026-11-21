@@ -27,7 +27,7 @@ public class PruebaController {
 
     @GetMapping("/protocare")
     public String index() {
-        return "Sistema Protocare - Protocolo Epidemiológico v1.0 (OMS)";
+        return "Sistema Protocare - Protocolo Epidemiológico v1.0 (OMS) - Ingeniería del Software";
     }
 
     @GetMapping("/get_prueba/{codigo}")
